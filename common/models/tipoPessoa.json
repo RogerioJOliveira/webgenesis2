@@ -16,6 +16,7 @@
       "required": true,
       "length": null,
       "precision": 10,
+      "generated": true,
       "scale": 0,
       "mysql": {
         "columnName": "idTipoPessoa",
