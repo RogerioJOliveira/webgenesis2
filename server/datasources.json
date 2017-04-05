@@ -7,10 +7,10 @@
   "myDB": {
     "host": "us-cdbr-iron-east-03.cleardb.net",
     "port": 3306,
-    "database": "heroku_a608c4fa3eacbed",
-    "password": "df87cbbf",
+    "database": "heroku_efede977f24da8e",
+    "password": "2c37b3ef",
     "name": "myDB",
-    "user": "bd7db12fd695c1",
+    "user": "b9ce2485ae57ae",
     "connector": "mysql"
   }
 }
