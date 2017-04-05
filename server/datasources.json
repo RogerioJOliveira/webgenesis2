@@ -1,0 +1,16 @@
+{
+ "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "db.json"
+  },
+  "myDB": {
+    "host": "us-cdbr-iron-east-03.cleardb.net",
+    "port": 3306,
+    "database": "heroku_a608c4fa3eacbed",
+    "password": "df87cbbf",
+    "name": "myDB",
+    "user": "bd7db12fd695c1",
+    "connector": "mysql"
+  }
+}
