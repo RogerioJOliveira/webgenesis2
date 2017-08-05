@@ -33,7 +33,7 @@ module.exports = function(User) {
     ctx.args.filter.include.push('tipoPessoa');
     ctx.args.filter.include.push('tipoEntidade');
 
-    console.log('Accessing %s matching %j', 'entidade', ctx.args.filter);
+    //console.log('Accessing %s matching %j', 'entidade', ctx.args.filter);
 
     next();
   });
