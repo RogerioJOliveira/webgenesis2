@@ -13,7 +13,7 @@
     "identidade": {
       "type": "Number",
       "id": true,
-      "required": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
@@ -23,7 +23,7 @@
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
-        "nullable": "N"
+        "nullable": "Y"
       },
       "_selectable": false
     },
@@ -380,8 +380,20 @@
       "_selectable": true
     }
   },
+  "hiddem": ["tbtipopessoaIdtipopessoa","tbTpentidade"],
   "validations": [],
-  "relations": {},
+  "relations": {
+    "tipoPessoa": {
+      "type": "belongsTo",
+      "model": "tipoPessoa",
+      "foreignKey": "tbtipopessoaIdtipopessoa"
+      },
+    "tipoEntidade": {
+      "type": "belongsTo",
+      "model": "tipoEntidade",
+      "foreignKey": "tbTpentidade"
+      }
+  },
   "acls": [],
   "methods": {}
 }

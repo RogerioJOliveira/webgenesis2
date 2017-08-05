@@ -61,7 +61,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+      "entidade": {
+      "type": "hasMany",
+      "model": "entidade",
+      "foreignKey": "tbtipopessoaIdtipopessoa"
+      }
+  },
   "acls": [],
   "methods": {}
 }
