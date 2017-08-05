@@ -12,7 +12,7 @@
   "properties": {
     "idtipopessoa": {
       "type": "Number",
-      "id": true,
+      "id": false,
       "required": true,
       "length": null,
       "precision": 10,
