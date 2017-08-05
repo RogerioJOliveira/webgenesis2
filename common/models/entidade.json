@@ -12,7 +12,7 @@
   "properties": {
     "identidade": {
       "type": "Number",
-      "id": false,
+      "id": true,
       "required": false,
       "length": null,
       "precision": 10,

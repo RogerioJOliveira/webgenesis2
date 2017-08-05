@@ -12,8 +12,8 @@
   "properties": {
     "idtpentidade": {
       "type": "Number",
-      "id": false,
-      "required": true,
+      "id": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
