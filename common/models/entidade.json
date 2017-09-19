@@ -108,17 +108,17 @@
       "_selectable": true
     },
     "isativo": {
-      "type": "Number",
+      "type": "String",
       "required": false,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
+      "length": 5,
+      "precision": null,
+      "scale": null,
       "mysql": {
         "columnName": "isAtivo",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
+        "dataType": "varchar",
+        "dataLength": 5,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "Y"
       },
       "_selectable": true
@@ -378,6 +378,38 @@
         "nullable": "Y"
       },
       "_selectable": true
+    },
+    "numero": {
+      "type": "String",
+      "required": false,
+      "length": 10,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "numero",
+        "dataType": "varchar",
+        "dataLength": 10,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "bairro": {
+      "type": "String",
+      "required": false,
+      "length": 50,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "isUser",
+        "dataType": "varchar",
+        "dataLength": 50,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
     }
   },
   "hiddem": ["tbtipopessoaIdtipopessoa","tbTpentidade"],
@@ -392,7 +424,12 @@
       "type": "belongsTo",
       "model": "tipoEntidade",
       "foreignKey": "tbTpentidade"
-      }
+      },
+      "users": {
+        "type": "belongsTo",
+        "model": "user",
+        "foreignKey": "dbuser"
+        }
   },
   "acls": [],
   "methods": {}
