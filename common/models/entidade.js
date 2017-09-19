@@ -19,7 +19,7 @@ module.exports = function(User) {
 };
   entidade.afterRemote ('**', function (context, modelInstance, next) {
     let ownerId = context.result.ownerId;
-    entidade.find({include:['tipoPessoa','tipoEntidade']}, function(err, owner) {
+    entidade.find({include:['tipoPessoa','tipoEntidade','users']}, function(err, owner) {
       let ownerId = context.result.ownerId;
       next();
     });
