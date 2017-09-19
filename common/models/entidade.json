@@ -402,7 +402,7 @@
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "isUser",
+        "columnName": "bairro",
         "dataType": "varchar",
         "dataLength": 50,
         "dataPrecision": null,
