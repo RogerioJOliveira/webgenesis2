@@ -10,7 +10,7 @@
     "table": "tbtipoequipamento"
   },
   "properties": {
-    "idtipoequipamento": {
+    "id": {
       "type": "Number",
       "id": true,
       "required": true,
