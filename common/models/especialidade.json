@@ -10,7 +10,7 @@
     "table": "tbespecialidade"
   },
   "properties": {
-    "idespecialidade": {
+    "id": {
       "type": "Number",
       "id": true,
       "required": true,
