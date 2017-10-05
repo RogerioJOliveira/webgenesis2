@@ -10,7 +10,7 @@
     "table": "tbtpproduto"
   },
   "properties": {
-    "idtpproduto": {
+    "id": {
       "type": "Number",
       "id": true,
       "required": true,
