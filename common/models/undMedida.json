@@ -10,7 +10,7 @@
     "table": "tbuntmedida"
   },
   "properties": {
-    "iduntmedida": {
+    "id": {
       "type": "Number",
       "id": true,
       "required": true,
