@@ -10,7 +10,7 @@
     "table": "tbmarca"
   },
   "properties": {
-    "idmarca": {
+    "id": {
       "type": "Number",
       "id": true,
       "required": true,
